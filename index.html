@@ -11,7 +11,7 @@
 </head>
 <body>
     
-    <header class="main__header">
+    <header class="header">
 
         <div class="container">
 
@@ -28,7 +28,7 @@
     
                     <ul class="navigation__list">
                         <li class="navigation__item">
-                            <a class="navigation__link active__link" href="#">Студия</a>
+                            <a class="navigation__link" href="#">Студия</a>
                         </li>
                         <li class="navigation__item">
                             <a class="navigation__link" href="#">Клиенты</a>
@@ -235,6 +235,35 @@
         </section>
 
 
+        <section class="contacts__popup-feedback">
+
+            <div class="header__popup-feedback">
+                <h2 class="popup-feedback__title">Напишите нам</h2>
+                <button class="popup-feedback__close"></button>
+            </div>
+            
+            <form class="popup-feedback__form" action="">
+                <label class="popup-form__label" for="popup-name">
+                    <p>Ваше имя:</p>
+                    <input class="popup-form__input" id="popup-name" type="text" placeholder="Имя Фамилия">
+                </label>
+
+                <label class="popup-form__label" for="popup-email">
+                    <p>Ваш email:</p>
+                    <input class="popup-form__input" id="popup-email" type="email" placeholder="email@example.com">
+                </label>
+                
+                <label class="popup-form__label-text" for="popup-text">
+                    <p>Текст письма:</p>
+                    <textarea class="popup-form__text" name="" id="popup-text" cols="30" rows="10" placeholder="В свободной форме" ></textarea>
+                </label>
+
+                <button class="feedback-form__button">Отправить</button>
+            </form>
+
+        </section>
+
+
         <section class="social">
 
             <div class="container">
@@ -261,7 +290,7 @@
     
                     <div class="social__description">
                         <p class="social__description-title">Давайте дружить, это выгодно!</p>
-                        <p class="socil__description-text">Скидка 10% для друзей из социальных сетей.</p>
+                        <p class="social__description-text">Скидка 10% для друзей из социальных сетей.</p>
                     </div>    
 
                 </div>
